@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 
 
 function Blog() {
@@ -9,8 +9,20 @@ function Blog() {
       <div className="row">
         {/*1st column*/}
         <div className="col-lg-3">
-        <h5>Harrison Favour</h5>
-        <Navbar></Navbar>
+        <h5><Link to="/">Harrison Favour</Link></h5>
+        <nav>
+            <ul className="sidebar">
+      
+            <li className="nav__item"><Link to="/#About">About </Link></li>
+            <li className="nav__item"><Link to="/#TechnicalSkills">Skills </Link></li>
+            <li className="nav__item"><Link to="/#Portfolio">Portfolio</Link></li>
+           
+            <div className="bloglink">
+            <li><Link to="/blog">Blog </Link></li>
+            </div>
+            </ul>
+         </nav>
+        
         </div>
         {/*1st column ends*/}
          {/*2nd column*/}
@@ -22,7 +34,7 @@ function Blog() {
           <div className="BlogContent">
           <div className="vl"></div>
           <div className="col-lg-11">
-            <h1>Blog</h1>
+            <h1><b>Blog</b></h1>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas cras lectus magna sodales aenean 
               condimentum auctor aliquet.In eros sed malesuada sit. Orci, potenti adipiscing pharetra, ut nunc amet

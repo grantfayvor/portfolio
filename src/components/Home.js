@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar'
 import Contentbody from './Contentbody'
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 
@@ -11,7 +12,7 @@ function Home() {
         <div className="row">
             {/* 1st column */}
         <div className="col-lg-3">
-        <h5>Harrison Favour</h5>
+        <h5><Link to="/">Harrison Favour</Link></h5>
         <Navbar></Navbar>
         </div>
         {/* 1st column ends */}
@@ -30,7 +31,8 @@ function Home() {
             <a href="https://github.com"><i class="fa fa-github"></i></a>
             <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
             <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a>
-            <a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="mailto:eduzorkosi@gmail.com"><i class="fa fa-envelope"></i></a>
+        
             </div>
         </div>
         {/*3rd column ends*/}

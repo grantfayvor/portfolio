@@ -1,6 +1,18 @@
-/*home*/
+/*fonts*/
 .Home{
-  font-family: lato;
+  font-family: Lato, sans-serif;
+}
+
+.Contentbody{
+  font-family: Lato, sans-serif;
+}
+
+nav{
+  font-family: Lato, sans-serif;
+}
+
+.BlogPage{
+    font-family: Lato, sans-serif;
 }
 
 h1 {
@@ -27,7 +39,10 @@ h5{
 .btn-primary:visited{
   background-color: #ce4384;
 }
-
+/*nav marker*/
+.is-current{
+  color: #BF0D60 ;
+}
 /*content*/
 .Contentbody{
   margin-top:152px;
@@ -35,11 +50,35 @@ h5{
 hr{
   border: 1px solid #9BC4B1;
 }
+hr {
+  width: 1px;
+  transition: width 2s;
+}
+
+hr:hover {
+  width: 500px;
+}
+
+
 .vl {
   border-left: 1px solid #9BC4B1;
-  height: 500px;
+  height: 400vh;
   float:right;
   margin-top:0px;
+}
+/*content of technical skills*/
+
+.mb-3{
+  border: none;
+}
+.card-body{
+ 
+  background-color:#ffffff;
+}
+
+/*content of portfolio*/
+.card{
+  border:none;
 }
 /*letstalkontheright*/
 .letstalk{
@@ -105,27 +144,39 @@ padding-top:222px ;
 
 nav ul
 {
-  text-align: center;
+  
   list-style-type: none;
   text-decoration: none;
   color: black;
 }
+
+.bloglink{
+margin-left: 39px;
+}
 nav ul li
 {
-  margin:40px;
+  margin:30px;
 }
 /*scrollpsy*/
 scrollspy-example {
     height: 100vh;
+  }
+  nav {
+    position: fixed;
+    
+  }
+
+  @media (min-width: 480px) {
+    .nav {
+      flex-direction: column;
+   }
   }
 
   /*blog*/
   p {
     word-wrap: break-word;
   }
-  .BlogPage{
-    font-family: lato;
-  }
+
   .BlogContent{
     margin-top:152px;
   }
