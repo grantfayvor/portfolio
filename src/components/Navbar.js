@@ -5,22 +5,26 @@ import Scrollspy from 'react-scrollspy'
 
 function Navbar() {
   return (
-    <div className="col-lg-3">
+    <div className="col">
         
          <nav>
             <ul className="sidebar">
             <Scrollspy items={ ['About', 'TechnicalSkills', 'Portfolio'] } currentClassName="is-current">
             <div className="navMarker">
-            <li className="nav__item"><a href="#About" className="nav__link">About</a></li>
-            <li className="nav__item"><a href="#TechnicalSkills" className="nav__link">Skills</a></li>
-            <li className="nav__item"><a href="#Portfolio" className="nav__link">Portfolio</a></li>
+            <li activeClassName="navlink--active" className="navlink"><a href="#About">About</a></li>
+            <li activeClassName="navlink--active" className="navlink"><a href="#TechnicalSkills">Skills</a></li>
+            <li activeClassName="navlink--active" className="navlink"><a href="#Portfolio" >Portfolio</a></li>
             </div>
             </Scrollspy>
+            
             <div className="bloglink">
-            <li><Link to="/blog">Blog </Link></li>
+            <li activeClassName="navlink--active" className="navlink"><Link to="/blog">Blog </Link></li>
+      
             </div>
             </ul>
          </nav>
+       
+
       
     </div>
   );

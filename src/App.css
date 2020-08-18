@@ -17,68 +17,111 @@ nav{
 
 h1 {
   color: #608F79;
+  margin-bottom: 30px;
 }
 
 h5{
   margin-top:60px;
   margin-left:54px;
 }
+
+h6 {
+  margin-bottom: 20px;
+}
+
+.letstalk2 .btn-primary{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
 /*buttons*/
-.btn-primary{
-  background-color:#f1cece;
-}
-
-.btn-primary:active{
+.btn-outline-danger:active{
   background-color: #BF0D60;
 }
 
-.btn-primary:hover{
-  background-color: #BF0D60;
+.btn-outline-danger:hover{
+  background-color: #D25690;
+}
+.btn-outline-danger {
+  color: #fff;
+  background-color: #F2CFDF;
+  border: none;
+  border-radius: 0rem;
 }
 
-.btn-primary:visited{
-  background-color: #ce4384;
+.btn-outline-danger:visited{
+  background-color: #EB88B6;
 }
-/*nav marker*/
-.is-current{
-  color: #BF0D60 ;
-}
+
 /*content*/
 .Contentbody{
   margin-top:152px;
 }
-hr{
-  border: 1px solid #9BC4B1;
-}
-hr {
-  width: 1px;
-  transition: width 2s;
+
+.w3-border {
+  color:#000 !important; 
+  background-color:#fff !important;
+  border: 1px solid #fff!important;
+} 
+
+.w3-bottombar{
+  width: 740px;
+  border-bottom: 1px solid #9bc4b1!important;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
 }
 
-hr:hover {
-  width: 500px;
+.w3-rightbar{
+  height: 420px;
+  width:2px;
+  border-right: 1px solid #9bc4b1!important;
+  float: right;
 }
 
-
-.vl {
-  border-left: 1px solid #9BC4B1;
-  height: 400vh;
-  float:right;
-  margin-top:0px;
+.navbar-header1 .w3-rightbar{
+  height: 855px;
+  width:2px;
+  border-right: 1px solid #9bc4b1!important;
+  float: right;
 }
+.navbar-header2 .w3-rightbar{
+  height: 843px;
+  width:2px;
+  border-right: 1px solid #9bc4b1!important;
+  float: right;
+}
+
+.navbar-header3 .w3-bottombar{
+  margin-bottom: 0rem;
+}
+.edittext h6{
+  color: #9BC4B1;
+transform: rotate(-90deg);
+float: right;
+}
+
+.edittext1 h6{
+  color: #9BC4B1;
+ 
+}
+
 /*content of technical skills*/
 
 .mb-3{
   border: none;
+  margin-left: 19px;
 }
 .card-body{
  
   background-color:#ffffff;
+  padding: 0rem;
 }
+
 
 /*content of portfolio*/
 .card{
   border:none;
+  margin-left: 15px;
 }
 /*letstalkontheright*/
 .letstalk{
@@ -107,6 +150,7 @@ hr:hover {
 
 .App_right_sidebar i:hover{
   color: #608F79;
+  
 }
 
 .App_right_sidebar i:visited{
@@ -115,15 +159,6 @@ hr:hover {
 
 
 /*blog.js*/ 
-.cardBlog{
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
-}
-
-.BlogBody{
-  margin-left: 15%;
-}
 
 .homeBar{
   
@@ -151,25 +186,43 @@ nav ul
 }
 
 .bloglink{
-margin-left: 39px;
+margin-left: 10px;
+}
+.navMarker li {
+  
+  margin-left: 0rem;
+  padding-left: 0px;
+  text-align: left;
+  
+ 
+}
+/*nav marker*/
+.nav-link .active{
+  border-left: 3px solid #29b6f6;
+  transition: border-left .5s ease-in-out;
 }
 nav ul li
 {
   margin:30px;
 }
+nav ul li .active a{
+  border-left: 5px solid #BF0D60;
+}
+
+nav ul li a:hover{
+  border-left: 5px solid #BF0D60;
+}
+.nav .current{
+  background-color: #BF0D60;
+}
+
 /*scrollpsy*/
 scrollspy-example {
     height: 100vh;
   }
   nav {
-    position: fixed;
-    
-  }
-
-  @media (min-width: 480px) {
-    .nav {
-      flex-direction: column;
-   }
+    position:fixed;
+  
   }
 
   /*blog*/
@@ -185,6 +238,7 @@ scrollspy-example {
     flex-direction: row;
     justify-content: space-between;
   }
+ 
   .card-title{
     margin-left: 4px;
   }
@@ -203,6 +257,20 @@ scrollspy-example {
     
   }
 
+  .MoreArticles :hover{
+    color:  #BF0D60;
+  }
+
+  .MoreArticles :active{
+    color:  #BF0D60;
+  }
+
+  .MoreArticles :visited{
+    color:  #BF0D60;
+  }
   .more{
     margin-top: 80px;
+  }
+  a:hover{
+    color:  #BF0D60;
   }
