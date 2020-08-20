@@ -3,6 +3,8 @@
   font-family: Lato, sans-serif;
 }
 
+
+
 .Contentbody{
   font-family: Lato, sans-serif;
 }
@@ -133,7 +135,7 @@ float: right;
 /*rightside bar*/
 .App_right_sidebar{
   margin-top:60px;
-  margin-right:54px;
+  margin-right:0px;
 }
 
 /*social media icons*/
@@ -186,7 +188,7 @@ nav ul
 }
 
 .bloglink{
-margin-left: 10px;
+margin-left: -5px;
 }
 .navMarker li {
   
@@ -196,46 +198,57 @@ margin-left: 10px;
   
  
 }
-/*nav marker*/
-.nav-link .active{
-  border-left: 3px solid #29b6f6;
-  transition: border-left .5s ease-in-out;
+.bg-light{
+  background-color: white!important;
+}
+.navbar-light .navbar-toggler{
+  color:#BF0D60;
+  border-color:#EB88B6;
+  font-size:0.5rem;
+}
+.navbar-toggler{
+  font-size: 0.5rem;
 }
 nav ul li
 {
   margin:30px;
 }
-nav ul li .active a{
-  border-left: 5px solid #BF0D60;
+.fixed-top{
+  display: none;
 }
-
 nav ul li a:hover{
-  border-left: 5px solid #BF0D60;
-}
-.nav .current{
-  background-color: #BF0D60;
+  color: #BF0D60;
 }
 
+.navbar-expand-lg{
+  position:fixed;
+  margin-top: 105px;
+  margin-left: -20px;
+
+
+}
+
+nav ul li .active{
+border-left: 2px solid #BF0D60;
+
+}
 /*scrollpsy*/
 scrollspy-example {
     height: 100vh;
   }
-  nav {
-    position:fixed;
-  
-  }
-
+ 
   /*blog*/
-  p {
-    word-wrap: break-word;
-  }
-
+ 
   .BlogContent{
     margin-top:152px;
   }
-  .cardBody{
+  .mb-3{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+  }
+  .row{
+    display: flex;
+    
     justify-content: space-between;
   }
  
@@ -274,3 +287,67 @@ scrollspy-example {
   a:hover{
     color:  #BF0D60;
   }
+  /* media queries */
+@media (max-width: 576px) { 
+  .navbar-expand-lg{
+    position: static;
+    margin-top: -35px;
+    margin-right: -10px;
+    float:right;
+  
+  }
+ 
+  .App_right_sidebar{
+    flex-direction: row;
+    float:left;
+    margin-left: 140px;
+    margin-top:20px;
+  }
+  .App_right_sidebar i{
+    margin-right: 5px;
+    font-size: 20px;
+    
+  }
+
+  h5{
+    padding-top:10px;
+    margin-left:0px
+  }
+
+  .w3-rightbar{
+   display:none
+  }
+  .w3-bottombar{
+    width:100%;
+  }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .navbar-expand-lg{
+    position: static;
+    margin-top: -35px;
+    margin-right: -10px;
+    float:right;
+  
+  }
+ 
+  .App_right_sidebar{
+    flex-direction: row;
+    float:left;
+    margin-left: 140px;
+    margin-top:20px;
+  }
+  .App_right_sidebar i{
+    margin-right: 5px;
+    font-size: 20px;
+    
+  }
+
+  h5{
+    padding-top:10px;
+    margin-left:0px
+  }
+
+} 

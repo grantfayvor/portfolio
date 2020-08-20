@@ -12,7 +12,7 @@ function App() {
      <Fragment>
     <ScrollToTop />
     <Switch>
-        <Route path="/" component={Home} exact />
+        <Route exact path="/" component={Home} />
         <Route path="/#About" component={Home}/>
         <Route path="/blog" component={Blog} />
         <Route component={Error} />
