@@ -71,11 +71,11 @@ function Contentbody() {
         </div>
 
       </div>
-      <div className="edittext">
+      <div className="edittext2">
         <h6>SKILLS</h6>
       </div>
 
-      <div className="col-xl-10">
+      <div className="col-xl-10 y">
         <h1 id="TechnicalSkills"><b>Technical Skills</b></h1>
 
         <p>
@@ -181,11 +181,11 @@ function Contentbody() {
         </div>
 
       </div>
-      <div className="edittext">
+      <div className="edittext3">
         <h6>PORTFOLIO</h6>
       </div>
 
-      <div className="col-xl-10">
+      <div className="col-xl-10 p">
         <h1 id="Portfolio"><b>Portfolio</b></h1>
 
 
@@ -289,7 +289,7 @@ function Contentbody() {
 
         </div>
       </nav>
-      <div className="edittext1">
+      <div className="edittext4">
         <h6>The End</h6>
       </div>
     </div>

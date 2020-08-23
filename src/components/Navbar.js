@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Scrollspy from 'react-scrollspy'
 
 class Navbar extends Component {
+    
     constructor(props) {
         super(props)
         this.state = {
@@ -48,6 +49,8 @@ class Navbar extends Component {
             default: break;
         }
     }
+
+    
 
     render() {
         return (

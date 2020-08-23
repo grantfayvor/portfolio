@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar'
 import Contentbody from './Contentbody'
 import { Link } from 'react-router-dom'
+import { VscGithubAlt} from 'react-icons/vsc';
 
 
 
@@ -13,7 +14,7 @@ function Home() {
           <div className="row">
             {/* 1st column */}
             <div className="col-xl-2">
-              <h5><Link to="">Harrison Favour</Link></h5>
+              <h5><b><Link to="">Harrison Favour</Link></b></h5>
               <Navbar></Navbar>
             </div>
             {/* 1st column ends */}
@@ -30,10 +31,13 @@ function Home() {
             <div className="col-xl-1">
               <div className="App_right_sidebar">
 
-                <a href="https://github.com"><i class="fa fa-github"></i></a>
-                <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a>
-                <a href="mailto:harrisonfavour@gmail.com"><i class="fa fa-envelope"></i></a>
+
+
+
+              <a href="https://github.com"><VscGithubAlt className="github"></VscGithubAlt></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <a href="mailto:harrisonfavour@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
 
               </div>
             </div>
