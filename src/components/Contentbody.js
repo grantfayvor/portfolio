@@ -91,7 +91,7 @@ function Contentbody() {
         <div className="row">
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">JavaScript</h5>
+              <h5 className="card-title"><b>Javascript</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.
@@ -100,7 +100,7 @@ function Contentbody() {
           </div>
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Java</h5>
+              <h5 className="card-title"><b>Java</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.
@@ -109,7 +109,7 @@ function Contentbody() {
           </div>
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Go lang</h5>
+              <h5 className="card-title"><b>Go Lang</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.
@@ -118,7 +118,7 @@ function Contentbody() {
           </div>
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Node.js</h5>
+              <h5 className="card-title"><b>Node.js</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.
@@ -127,7 +127,7 @@ function Contentbody() {
           </div>
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">React</h5>
+              <h5 className="card-title"><b>React</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.
@@ -136,7 +136,7 @@ function Contentbody() {
           </div>
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">DevOps</h5>
+              <h5 className="card-title"><b>DevOps</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.
@@ -145,7 +145,7 @@ function Contentbody() {
           </div>
           <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-body">
-              <h5 className="card-title">Technical writing</h5>
+              <h5 className="card-title"><b>Technical Writing</b></h5>
               <p className="card-text">
                 Expert in writing backend JavaScript using the
                 Node.js runtime environment.

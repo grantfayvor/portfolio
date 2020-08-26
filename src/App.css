@@ -324,8 +324,12 @@ nav ul {
   color: black;
 }
 
-.bloglink {
-  margin-left: -5px;
+.bloglink a{
+  color: #E91E63;
+}
+
+.bloglink1 {
+  margin-left: -26px;
 }
 
 .navMarker li {
@@ -369,12 +373,27 @@ nav ul li a:hover {
 
 .navbar-expand-xl {
   position: fixed;
-  margin-top: 105px;
+  margin-top: 140px;
   margin-left: -20px;
 }
 
-nav ul li .active {
+nav ul li .active{
+    border-left: 2px solid #BF0D60;
+  
+}
+
+ul .scrollspy{
+  padding-inline-start: 20px;
+}
+
+.isCurrent a{
+  color: #BF0D60;
+}
+
+ .isCurrent {
   border-left: 2px solid #BF0D60;
+  height:40px;
+  
 }
 
 /*scrollpsy*/
@@ -552,6 +571,16 @@ a:hover {
   }
   .letstalk {
     display: none;
+
+
+  }
+
+  .isCurrent{
+    border: none;
+  }
+  
+  nav ul li .active{
+    border:none
   }
 }
 
@@ -632,6 +661,14 @@ a:hover {
   .edittext4 h6 {
     display: none
   }
+
+  .isCurrent{
+    border: none;
+  }
+  
+  nav ul li .active{
+    border:none
+  }
 }
 
 /* // large devices (laptops, 1024px and up) */
@@ -680,6 +717,18 @@ h1 {
 }
 .w3-rightbar {
   display: none
+}
+
+.isCurrent{
+  border: none;
+}
+
+nav ul li .active{
+  border:none
+}
+
+nav ul li a {
+  color: #BF0D60;
 }
 .navbar-expand-xl {
   position: static;

@@ -60,7 +60,7 @@ class Blog extends Component {
             {/*1st column*/}
             <div className="col-xl-2">
             <h5><b><Link to="">Harrison Favour</Link></b></h5>
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <nav class="navbar navbar-expand-xl navbar-light bg-light">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -68,14 +68,14 @@ class Blog extends Component {
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                   <ul className="sidebar">
 
-                    <li className="nav__item"><Link to="/#About">About </Link></li>
-                    <li className="nav__item"><Link to="/#TechnicalSkills">Skills </Link></li>
-                    <li className="nav__item"><Link to="/#Portfolio">Portfolio</Link></li>
+                    <li className="nav__item"><Link to="/#About"><b>About</b> </Link></li>
+                    <li className="nav__item"><Link to="/#TechnicalSkills"><b>Skills</b> </Link></li>
+                    <li className="nav__item"><Link to="/#Portfolio"><b>Portfolio</b></Link></li>
 
 
-                    <div className="bloglink1">
+                    <div className="bloglink">
                       <li className="nav__item"><Link to="/blog" className={this.state.blog ? 'active' : null}
-                        onClick={() => this.handleActive('blog')}>Blog </Link></li>
+                        onClick={() => this.handleActive('blog')}><b>Blog</b></Link></li>
                     </div>
                   </ul>
                 </div>
@@ -122,25 +122,25 @@ class Blog extends Component {
                     <div className="card" style={{ width: "18rem" }}>
                       <img className="card-img-top" src={image} alt="" />
                       <div className="card-body">
-                        <h5 className="card-title">Dynamo</h5>
+                        <h5 className="card-title"><b>Dynamo</b></h5>
                         <p className="card-text">
                         Expert in writing backend JavaScript using the Node.js runtime environment.
                     </p>
                         <a href="https://www.medium.com" className="Read">
-                          Read
+                         <b>Read</b>
                     </a>
                       </div>
                     </div>
                     <div className="card" style={{ width: "18rem" }}>
                       <img className="card-img-top" src={image2} alt="" />
                       <div className="card-body">
-                        <h5 className="card-title">Dynamo</h5>
+                        <h5 className="card-title"><b>Dynamo</b></h5>
                         <p className="card-text">
                         Expert in writing backend JavaScript using the Node.js runtime environment.
                     </p>
                         <div className="readtext">
                           <a href="https://www.medium.com" className="Read">
-                            Read
+                          <b>Read</b>
                     </a>
                         </div>
 
