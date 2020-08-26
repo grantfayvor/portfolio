@@ -174,9 +174,10 @@ h6 {
   margin-top: 5rem;
 }
 
-.edittext4{
+.edittext4 {
   color: #9BC4B1;
 }
+
 /*content of technical skills*/
 
 .mb-3 {
@@ -189,21 +190,22 @@ h6 {
   padding: 0rem;
 }
 
-.col-xl-10.y h5{
-  
+.col-xl-10.y h5 {
   margin-left: -0.1px;
-  }
+}
 
 /*content of portfolio*/
-.col-xl-10.p h5{
-color: #608F79;
-margin-left: -0.1px;
+
+.col-xl-10.p h5 {
+  color: #608F79;
+  margin-left: -0.1px;
 }
 
-.col-xl-10.p a{
-  color:#BF0D60;
+.col-xl-10.p a {
+  color: #BF0D60;
   text-decoration: underline;
 }
+
 .card {
   border: none;
   margin-left: 15px;
@@ -231,9 +233,9 @@ margin-left: -0.1px;
   -webkit-text-stroke-color: #9BC4B1;
 }
 
-.github{
+.github {
   color: #9BC4B1;
-  font-size:24px;
+  font-size: 24px;
   margin-bottom: 24px;
 }
 
@@ -337,12 +339,12 @@ nav ul {
 }
 
 .navbar-light .navbar-toggler {
- 
   border: none;
   font-size: 1rem;
 }
-.navbar-light .navbar-toggler-icon{
-  color:#E91E63 ;
+
+.navbar-light .navbar-toggler-icon {
+  color: #E91E63;
 }
 
 .navbar-toggler {
@@ -357,11 +359,15 @@ nav ul li {
   display: none;
 }
 
+nav ul li a{
+  padding-left: 21px;
+}
+
 nav ul li a:hover {
   color: #BF0D60;
 }
 
-.navbar-expand-lg {
+.navbar-expand-xl {
   position: fixed;
   margin-top: 105px;
   margin-left: -20px;
@@ -369,7 +375,6 @@ nav ul li a:hover {
 
 nav ul li .active {
   border-left: 2px solid #BF0D60;
- 
 }
 
 /*scrollpsy*/
@@ -384,13 +389,16 @@ scrollspy-example {
   margin-top: 152px;
   background-color: #FFFEF1;
 }
-.editblogtext h1{
+
+.editblogtext h1 {
   margin-left: 12px;
 }
-.editblogtext p{
+
+.editblogtext p {
   margin-left: 12px;
 }
-.col-xl-9{
+
+.col-xl-9.b {
   background-color: #FFFEF1;
 }
 
@@ -411,28 +419,31 @@ scrollspy-example {
   flex-direction: row;
   justify-content: space-between;
 }
-.cardBody .card-title{
+
+.cardBody .card-title {
   margin-top: 10px;
   margin-left: 10px;
- 
 }
 
-.cardBody .card-title p{
+.cardBody .card-title p {
   margin-bottom: 5px;
 }
 
-.cardBody .card-text{
+.cardBody .card-text {
   margin-top: 10px;
   margin-left: 10px;
 }
 
-.Read{
+.Read {
   margin-left: 10px;
   text-decoration: underline;
 }
-.readtext{
-  margin-bottom: 15px;;
+
+.readtext {
+  margin-bottom: 15px;
+  ;
 }
+
 .card-title {
   margin-left: 4px;
 }
@@ -469,113 +480,256 @@ a:hover {
 /* media queries */
 
 @media (max-width: 576px) {
-
-  
-h1 {
-  margin-bottom: 30px;
-  font-size: 40px;
-}
-
-.col-xl-9.mr-0.pr-0 .col-xl-10{
-margin-top: -115px;
-}
-  .navbar-expand-lg {
+  h1 {
+    margin-left: -2px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .editblogtext h1 {
+    font-size: 40px;
+  }
+  .col-xl-9.b .col-xl-10 {
+    margin-top: -115px;
+  }
+  .col-xl-9.mr-0.pr-0 .col-xl-10 {
+    margin-top: -115px;
+  }
+  .navbar-expand-xl {
     position: static;
     margin-top: -35px;
     margin-right: -10px;
     float: right;
   }
+  .bg-light {
+    background-color: #ffffff!important;
+  }
+
+  nav ul li a {
+    color: #BF0D60;
+  }
   .App_right_sidebar {
     flex-direction: row;
     float: left;
-    margin-left: 140px;
     margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 25.5%;
   }
-  .App_right_sidebar i {
-    margin-right: 5px;
-    font-size: 20px;
+  .App_right_sidebar a {
+    margin-right: 40.5%;
+    font-size: 15px;
   }
   h5 {
-    padding-top: 10px;
-    padding-left: 14px;
+    padding-top: 1%;
+    margin-left: 15px
   }
   .edittext h6 {
     display: none
   }
-
   .edittext1 h6 {
     display: none
   }
-
   .edittext2 h6 {
     display: none
   }
-
   .edittext3 h6 {
     display: none
   }
-
   .edittext4 h6 {
     display: none
   }
-  .col-xl-10.y{
-    padding-top:50px;
+  .col-xl-10.y {
+    padding-top: 50px;
   }
-
-  .col-xl-10.p{
-    padding-top:50px;
+  .col-xl-10.p {
+    padding-top: 50px;
   }
   .w3-rightbar {
     display: none
   }
   .w3-bottombar {
-    width: 300px;
+    width: 1100%;
     margin-top: -5px;
   }
-  .letstalk{
-    display:none;
+  .letstalk {
+    display: none;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 
-@media (max-width: 768px) {
-  .navbar-expand-lg {
+@media (max-width: 768px) and (min-width: 577px) {
+  .col-xl-10.y {
+    padding-top: 50px;
+  }
+  .col-xl-10.p {
+    padding-top: 50px;
+  }
+  h5 {
+    padding-top: 1%;
+    margin-left: 15px
+  }
+  h1 {
+    margin-left: -2px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .editblogtext h1 {
+    font-size: 40px;
+  }
+  .col-xl-9.b .col-xl-10 {
+    margin-top: -115px;
+  }
+  .col-xl-9.mr-0.pr-0 .col-xl-10 {
+    margin-top: -115px;
+  }
+  .letstalk {
+    display: none;
+  }
+  .w3-rightbar {
+    display: none
+  }
+  .navbar-expand-xl {
     position: static;
     margin-top: -35px;
     margin-right: -10px;
     float: right;
   }
+  .bg-light {
+    background-color: #ffffff!important;
+  }
+
+  nav ul li a {
+    color: #BF0D60;
+  }
+  
   .App_right_sidebar {
     flex-direction: row;
     float: left;
-    margin-left: 140px;
     margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 37.5%;
   }
-  .App_right_sidebar i {
-    margin-right: 5px;
-    font-size: 20px;
+  .App_right_sidebar a {
+    margin-right: 40.5%;
+    font-size: 15px;
   }
-  h5 {
-    padding-top: 10px;
-    margin-left: 0px
+  
+  .w3-bottombar {
+    width: 1500%;
+  }
+  .edittext h6 {
+    display: none
+  }
+  .edittext1 h6 {
+    display: none
+  }
+  .edittext2 h6 {
+    display: none
+  }
+  .edittext3 h6 {
+    display: none
+  }
+  .edittext4 h6 {
+    display: none
   }
 }
 
+/* // large devices (laptops, 1024px and up) */
+
+@media (max-width: 1024px) {
+  .col-xl-10.y {
+    padding-top: 50px;
+  }
+  .col-xl-10.p {
+    padding-top: 50px;
+  }
+/* .bg-light {
+  background-color: #ffffff!important;
+}
+
+nav ul li a {
+  color: #BF0D60;
+} */
+
+.col-xl-10.y {
+  padding-top: 50px;
+}
+.col-xl-10.p {
+  padding-top: 50px;
+}
+h5 {
+  padding-top: 1%;
+  margin-left: 15px
+}
+h1 {
+  margin-left: -2px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.editblogtext h1 {
+  font-size: 40px;
+}
+.col-xl-9.b .col-xl-10 {
+  margin-top: -115px;
+}
+.col-xl-9.mr-0.pr-0 .col-xl-10 {
+  margin-top: -115px;
+}
+.letstalk {
+  display: none;
+}
+.w3-rightbar {
+  display: none
+}
+.navbar-expand-xl {
+  position: static;
+  margin-top: -35px;
+  margin-right: -10px;
+  float: right;
+}
+
+.App_right_sidebar {
+  flex-direction: row;
+  float: left;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 37.5%;
+}
+.App_right_sidebar a {
+  margin-right: 40.5%;
+  font-size: 15px;
+}
+
+.edittext h6 {
+  display: none
+}
+.edittext1 h6 {
+  display: none
+}
+.edittext2 h6 {
+  display: none
+}
+.edittext3 h6 {
+  display: none
+}
+.edittext4 h6 {
+  display: none
+}
+}
 /* // large devices (laptops, 1440px and up) */
 
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
   .navbar-header1 .w3-rightbar {
     height: 55rem;
- 
   }
+
+
 }
 
 /* // large devices (4k, 2560px and up) */
 
-@media (width: 2560px){
+@media (width: 2560px) {
   .navbar-header1 .w3-rightbar {
     height: 44rem;
- 
   }
 }

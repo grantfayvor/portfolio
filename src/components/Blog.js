@@ -85,7 +85,7 @@ class Blog extends Component {
             {/*1st column ends*/}
             {/*2nd column*/}
 
-            <div className="col-xl-9">
+            <div className="col-xl-9 b">
 
               <div className="letstalk">
                 <a class="btn btn-outline-danger" href="mailto:harrisonfavour@gmail.com" role="button">Let's Talk</a>
