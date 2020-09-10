@@ -1035,7 +1035,7 @@ nav ul li a {
 
 } */
 
-@media (max-width: 1920px){
+@media (width: 1920px){
   .navbar-header .w3-rightbar {
     height: 50vh;
   }
