@@ -66,16 +66,19 @@ class Blog extends Component {
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="navbarline1">
+          <div class="w3-third tablink w3-leftbar w3-padding"></div>
+        </div>
                   <ul className="sidebar">
-
-                    <li className="nav__item"><Link to="/#About"><b>About</b> </Link></li>
-                    <li className="nav__item"><Link to="/#TechnicalSkills"><b>Skills</b> </Link></li>
-                    <li className="nav__item"><Link to="/#Portfolio"><b>Portfolio</b></Link></li>
-
+                    <div className="navMarker1">
+                    <li className="nav__item"><Link to="/#About">About</Link></li>
+                    <li className="nav__item"><Link to="/#TechnicalSkills">Skills</Link></li>
+                    <li className="nav__item"><Link to="/#Portfolio">Portfolio</Link></li>
+                    </div>
 
                     <div className="bloglink">
-                      <li className="nav__item"><Link to="/blog" className={this.state.blog ? 'active' : null}
-                        onClick={() => this.handleActive('blog')}><b>Blog</b></Link></li>
+                      <li className="nav__item1"><Link to="/blog" className={this.state.blog ? 'active' : null}
+                        onClick={() => this.handleActive('blog')}>Blog</Link></li>
                     </div>
                   </ul>
                 </div>
@@ -119,7 +122,7 @@ class Blog extends Component {
               </p>
               </div>
                   <div className="cardBody">
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card" style={{ width: "270px" }}>
                       <img className="card-img-top" src={image} alt="" />
                       <div className="card-body">
                         <h5 className="card-title"><b>Dynamo</b></h5>
@@ -131,7 +134,7 @@ class Blog extends Component {
                     </a>
                       </div>
                     </div>
-                    <div className="card" style={{ width: "18rem" }}>
+                    <div className="card" style={{ width: "270px" }}>
                       <img className="card-img-top" src={image2} alt="" />
                       <div className="card-body">
                         <h5 className="card-title"><b>Dynamo</b></h5>

@@ -30,7 +30,7 @@ function Home() {
             {/* 3rd column */}
             <div className="col-xl-1">
               <div className="App_right_sidebar">
-              <a href="https://github.com"><VscGithubAlt className="github"></VscGithubAlt></a>
+              <a href="https://github.com"><VscGithubAlt class="github"></VscGithubAlt></a>
                 <a href="https://twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
                 <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in fa-lg"></i></a>
                 <a href="mailto:harrisonfavour@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>

@@ -23,6 +23,7 @@ function Contentbody() {
       <div className="edittext">
         <h6>ABOUT</h6>
       </div>
+      <div className="column1">
       <div className="col-xl-10">
         <h1 id="About"><b>Harrison Favour</b></h1>
         <h6><b> I am a Back-End Developer. </b></h6>
@@ -44,7 +45,7 @@ function Contentbody() {
         <div className="letstalk2">
           <a class="btn btn-outline-danger" href="mailto:harrisonfavour@gmail.com" role="button">Let's Talk</a>
         </div>
-
+        </div>
       </div>
 
       <nav
@@ -74,7 +75,7 @@ function Contentbody() {
       <div className="edittext2">
         <h6>SKILLS</h6>
       </div>
-
+      <div className="column2">
       <div className="col-xl-10 y">
         <h1 id="TechnicalSkills"><b>Technical Skills</b></h1>
 
@@ -154,7 +155,7 @@ function Contentbody() {
           </div>
         </div>
 
-
+        </div>
 
       </div>
       <nav
@@ -184,7 +185,7 @@ function Contentbody() {
       <div className="edittext3">
         <h6>PORTFOLIO</h6>
       </div>
-
+      <div className="column3">
       <div className="col-xl-10 p">
         <h1 id="Portfolio"><b>Portfolio</b></h1>
 
@@ -274,6 +275,7 @@ function Contentbody() {
             </div>
           </div>
 
+        </div>
         </div>
       </div>
 

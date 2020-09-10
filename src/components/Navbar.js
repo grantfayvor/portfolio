@@ -12,17 +12,22 @@ function Navbar() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        {/* <ul className="progress"> */}
+                        <div class="navbarline">
+          <div class="w3-third tablink w3-leftbar w3-padding"></div>
+        </div>
                         <ul>
+          
                             <div className="navMarker">
                                 <Scrollspy className="scrollspy" items={['About', 'TechnicalSkills', 'Portfolio']}
                                     currentClassName="isCurrent">
-                                    <li><a href="#About"><b>About</b></a></li>
-                                    <li><a href="#TechnicalSkills"><b>Skills</b> </a></li>
-                                    <li><a href="#Portfolio"><b>Portfolio</b></a></li>
+                                    <li><a href="#About">About</a></li>
+                                    <li><a href="#TechnicalSkills">Skills </a></li>
+                                    <li><a href="#Portfolio">Portfolio</a></li>
                                 </Scrollspy>
                             </div>
                             <div className="bloglink1">
-                                <li className="nav-link"><Link to="/blog"><b>Blog</b></Link></li>
+                                <li className="nav-link"><Link to="/blog">Blog</Link></li>
 
                             </div>
                         </ul>
