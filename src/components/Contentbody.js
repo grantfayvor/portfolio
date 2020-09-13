@@ -90,7 +90,7 @@ function Contentbody() {
 
 
         <div className="row">
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{ width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>Javascript</b></h5>
               <p className="card-text">
@@ -99,7 +99,7 @@ function Contentbody() {
           </p>
             </div>
           </div>
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>Java</b></h5>
               <p className="card-text">
@@ -108,7 +108,7 @@ function Contentbody() {
           </p>
             </div>
           </div>
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>Go Lang</b></h5>
               <p className="card-text">
@@ -117,7 +117,7 @@ function Contentbody() {
         </p>
             </div>
           </div>
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>Node.js</b></h5>
               <p className="card-text">
@@ -126,7 +126,7 @@ function Contentbody() {
           </p>
             </div>
           </div>
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>React</b></h5>
               <p className="card-text">
@@ -135,7 +135,7 @@ function Contentbody() {
                 </p>
             </div>
           </div>
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>DevOps</b></h5>
               <p className="card-text">
@@ -144,7 +144,7 @@ function Contentbody() {
                       </p>
             </div>
           </div>
-          <div className="card bg-light mb-3" style={{ maxWidth: "18rem" }}>
+          <div className="card bg-light mb-3" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title"><b>Technical Writing</b></h5>
               <p className="card-text">
@@ -201,7 +201,7 @@ function Contentbody() {
 
 
         <div className="row">
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title">Dynamo</h5>
               <p className="card-text">
@@ -213,7 +213,7 @@ function Contentbody() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title">Dynamo</h5>
               <p className="card-text">
@@ -225,7 +225,7 @@ function Contentbody() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title">Dynamo</h5>
               <p className="card-text">
@@ -237,7 +237,7 @@ function Contentbody() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{  width: "270px"}}>
             <div className="card-body">
               <h5 className="card-title">Dynamo</h5>
               <p className="card-text">
@@ -249,7 +249,7 @@ function Contentbody() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{  width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title">Dynamo</h5>
               <p className="card-text">
@@ -261,7 +261,7 @@ function Contentbody() {
               </a>
             </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{ width: "270px" }}>
             <div className="card-body">
               <h5 className="card-title">Dynamo</h5>
               <p className="card-text">

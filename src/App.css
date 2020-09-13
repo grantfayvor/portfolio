@@ -146,14 +146,14 @@ h6 {
 }
 
 .w3-bottombar {
-  width: 980px;
+  width: 1200px;
   border-bottom: 1px solid #9bc4b1!important;
   margin-top: 76px;
   margin-bottom: 116px;
 }
 
 .navbar-header .w3-rightbar {
-  height: 90vh;
+  height: 74vh!important;
   width: 2px;
   border-right: 1px solid #9bc4b1!important;
   float: right!important;
@@ -161,7 +161,7 @@ h6 {
 }
 
 .navbar-header1 .w3-rightbar {
-  height: 180vh!important;
+  height: 130vh!important;
   margin-top:-90px;
   width: 2px;
   border-right: 1px solid #9bc4b1!important;
@@ -169,7 +169,7 @@ h6 {
 }
 
 .navbar-header2 .w3-rightbar {
-  height: 170vh!important;
+  height: 115vh!important;
   width: 2px;
   border-right: 1px solid #9bc4b1!important;
   float: right;
