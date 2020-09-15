@@ -1,0 +1,89 @@
+.col-xl-9.mr-0.pr-0 {
+    background-color: #FFFEF1;
+  }
+  
+  .Contentbody {
+    font-family: Lato, sans-serif;
+    background-color: #FFFEF1;
+  }
+  
+  .Contentbody .column1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Contentbody .column2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Contentbody .column3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  .Contentbody {
+    margin-top: 90px;
+  }
+  
+  .section-body>div.col-xl-12 {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .w3-border {
+    color: #000 !important;
+    background-color: #FFFEF1!important;
+    border: 1px solid #FFFEF1!important;
+  }
+  
+  .w3-bottombar {
+    width: 1200px;
+    border-bottom: 1px solid #9bc4b1!important;
+    margin-top: 79px;
+  }
+  
+
+  /*content of technical skills*/
+
+.mb-3 {
+    border: none;
+    margin-left: 19px;
+  }
+  
+  .card-body {
+    background-color: #FFFEF1;
+    padding: 0px;
+  }
+  
+  .col-xl-10.y h5 {
+    margin-left: -0.1px;
+  }
+  
+  /*content of portfolio*/
+  
+  .col-xl-10.p h5 {
+    color: #608F79;
+    margin-left: -0.1px;
+  }
+  
+  .col-xl-10.p a {
+    color: #BF0D60;
+    text-decoration: underline;
+  }
+  
+  .card {
+    border: none;
+    margin-left: 15px;
+  }
+  
+  .main-header {
+    position: fixed;
+    height: 50px;
+    line-height: 3
+  }
+  

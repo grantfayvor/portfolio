@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from "react-router-dom"
 import {Fragment } from 'react';
 import  Home from "./components/Home"
-import Blog from "./components/Blog"
+import Blogframe from "./components/Blogframe"
 import ScrollToTop from './components/scrolltoTop'
 
 
@@ -14,7 +14,7 @@ function App() {
     <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/#About" component={Home}/>
-        <Route path="/blog" component={Blog} />
+        <Route path="/blog" component={Blogframe} />
         <Route component={Error} />
     </Switch>
     </Fragment>

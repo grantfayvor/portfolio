@@ -1,10 +1,11 @@
 import React from 'react';
-import '../navbar.css';
 import { Link } from 'react-router-dom';
+import '../blog.css';
+import '../content.css';
 import Scrollspy from 'react-scrollspy'
 
-function Navbar() {
 
+function BlogNavbar() {
     return (
         <div className="col-xl-2 pr-0 breadcrumb-container">
             <nav class="navbar navbar-expand-xl navbar-light bg-light">
@@ -27,10 +28,8 @@ function Navbar() {
             </nav>
 
         </div>
-    )
 
+    );
 }
 
-
-export default Navbar
-
+export default BlogNavbar
