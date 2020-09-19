@@ -30,15 +30,11 @@ function Contentbody() {
                 Odio tristique orci proin tempor sit convallis in lorem semper.
               </p>
               <div className="letstalk2">
-                <a class="btn btn-outline-danger" href="mailto:harrisonfavour@gmail.com" role="button">Let's Talk</a>
+                <a className="btn btn-outline-danger" href="mailto:harrisonfavour@gmail.com" role="button">Let's Talk</a>
               </div>
             </div>
           </div>
-          <aside
-     
-            className="nav__aside"
-
-          >
+          <aside className="nav__aside">
             <span>ABOUT</span>
             <div className="vertical__nav__indicator"></div>
           </aside>
@@ -134,17 +130,17 @@ function Contentbody() {
             </div>
           </div>
           <aside
-           
-            className="nav__aside2"
 
-           
+            className="nav__aside"
+
+
           >
             <span>SKILLS</span>
-           
+            <div className="vertical__nav__indicator"></div>
           </aside>
         </main>
         <div
-         
+
           className="nav__horizontal"
         >
           <div className="horizontal__nav__indicator"></div>
@@ -243,17 +239,17 @@ function Contentbody() {
             </div>
           </div>
           <aside
-         
-            className="nav__aside3"
 
-           
+            className="nav__aside"
+
+
           >
             <span>PORTFOLIO</span>
-      
+            <div className="vertical__nav__indicator"></div>
           </aside>
         </main>
         <div
-      
+
 
           className="nav__horizontal"
         >
@@ -262,7 +258,7 @@ function Contentbody() {
       </section>
 
       <section style={{ marginTop: "40px" }}>
-        <div className="edittext4">
+        <div className="edittext4" style={{ width: "90%", margin: "auto" }}>
           <h6>The End</h6>
         </div>
       </section>

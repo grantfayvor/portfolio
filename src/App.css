@@ -229,122 +229,6 @@ scrollspy-example {
 }
 
 /* media queries */
-@media (max-width: 320px) {
-  .navbar-toggler-icon{
-    float: right!important;
-  }
-}
-
-@media (max-width: 320px) {
-  .w3-bottombar {
-    width: 800%!important;
-  }
-  .navbarline {
-    display: none;
-  }
-  .navbarline1 {
-    display: none;
-  }
-  h1 {
-    font-size: 30px!important;
-  }
-  .col-xl-10.y h5 {
-    margin-left: -0.1px!important;
-    margin-bottom: 10px!important;
-  }
-  /*content of portfolio*/
-  .col-xl-10.p h5 {
-    color: #608F79 !important;
-    margin-left: -0.1px!important;
-    margin-bottom: 10px!important;
-  }
-
-  .navbar-toggler-icon {
-    display: inline-block;
-    width: 20px;
-    height: 45px;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-    margin-bottom: -15px;
-    margin-right: 10px;
-  }
-  .App_right_sidebar {
-    position: static;
-    flex-direction: row;
-    float: left;
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 15%!important;
-  }
-  .fixed-bottom-mobile {
-    position: fixed;
-    bottom: 0;
-  }
-  .App_right_sidebar a {
-    margin-right: 40.5%;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 367px) {
-h5.main-header{
-  margin-left: 31px!important;
-}
-
-}
-
-@media (max-width: 385px) and (min-width:321px) {
-  .w3-bottombar {
-    width: 900%!important;
-    margin-top: -5px;
-  }
-  .navbarline {
-    display: none;
-  }
-  .navbarline1 {
-    display: none;
-  }
-
-  .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 50px;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-    margin-bottom: -15px;
-  }
-  .col-xl-10.y h5 {
-    margin-left: -0.1px!important;
-    margin-bottom: 10px!important;
-  }
-  /*content of portfolio*/
-  .col-xl-10.p h5 {
-    color: #608F79 !important;
-    margin-left: -0.1px!important;
-    margin-bottom: 10px!important;
-  }
-  .App_right_sidebar {
-    position: static;
-    flex-direction: row;
-    float: left;
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 15%!important;
-  }
-  .fixed-bottom-mobile {
-    position: fixed;
-    bottom: 0;
-  }
-  .App_right_sidebar a {
-    margin-right: 40.5%;
-    font-size: 15px;
-  }
-}
-
 @media (max-width: 576px) {
   .section-body>.col-xl-12.b{
     margin-top: -150px!important;
@@ -352,8 +236,9 @@ h5.main-header{
  h5.main-header {
     position: static;
     padding-top: 1%;
-    margin-left: 35px;
+    margin-left: 15px;
     margin-bottom: -15px;
+    line-height: 0;
   }
   h5.card-title{
     margin-left:0px!important;
@@ -390,8 +275,14 @@ h5.main-header{
   .bg-light {
     background-color: #ffffff!important;
   }
+  nav ul {
+    margin-top: 50px;
+  }
+  nav ul li {
+    text-align: center;
+  }
   nav ul li a {
-    color: #BF0D60;
+    color: #FFFFFF!important;
   }
   .App_right_sidebar {
     position: static;
@@ -404,6 +295,14 @@ h5.main-header{
   .fixed-bottom-mobile {
     position: fixed;
     bottom: 0;
+    height: 8vh;
+  }
+  .fixed-top-mobile {
+    position: fixed;
+    height: 60px;
+    z-index: 9999;
+    top: 0;
+    background: #FFFFFF;
   }
   .App_right_sidebar a {
     margin-right: 40.5%;
@@ -412,7 +311,6 @@ h5.main-header{
   h5 {
     padding-top: 1%;
     margin-left: 15px;
-    /* margin-bottom: -15px; */
   }
   .edittext h6 {
     display: none
@@ -451,17 +349,13 @@ h5.main-header{
   nav ul li .active {
     border: none
   }
-  /* .nav__horizontal {
-    display: none;
-  } */
   .Contentbody {
-    margin-top: 0px!important;
+    margin-top: 85px;
   }
 
   .section-body {
     margin: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    border-right: none;
   }
   .about-section {
     height: auto;
@@ -490,7 +384,6 @@ h5.main-header{
   }
   .breadcrumb-container {
     display: inline-block;
-    width: 20%;
     vertical-align: middle;
   }
   .section-body>div.col-xl-12 {
@@ -501,6 +394,16 @@ h5.main-header{
   }
   .no-mobile-padding {
     padding: 0px;
+  }
+
+  .navbar-collapse.collapse.show {
+    height: 92vh;
+    width: 100vw;
+    background: #BF0D60;
+    color: #FFFFFF!important;
+    position: absolute;
+    top: -77px;
+    left: 0;
   }
 }
 
@@ -663,7 +566,6 @@ h5.main-header{
 
 }
 
-
 @media (max-width: 1199px) and (min-width:769px) {
   .section-body>.col-xl-12.b{
     margin-top: -80px!important;
@@ -725,6 +627,9 @@ h5.main-header{
     padding-top: 1%;
     margin-left: 43.4px;
     margin-bottom: -15px;
+    line-height: 0;
+    width: 85%;
+    display: inline-block;
   }
   h1 {
     margin-left: -2px;
@@ -758,6 +663,9 @@ h5.main-header{
     margin-left: 0px;
     float:right;
   }
+  .no-mobile-padding {
+    padding: 0px;
+  }
   .App_right_sidebar {
     position: static;
     flex-direction: row;
@@ -789,6 +697,38 @@ h5.main-header{
   .edittext4 h6 {
     display: none
   }
+  .breadcrumb-container {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .navbar-collapse.collapse.show {
+    height: 95vh;
+    width: 100vw;
+    background: #BF0D60;
+    color: #FFFFFF!important;
+    position: absolute;
+    top: -77px;
+    left: 0;
+  }
+  nav ul {
+    margin-top: 50px;
+  }
+  nav ul li {
+    text-align: center;
+  }
+  nav ul li a {
+    color: #FFFFFF!important;
+  }
+  .fixed-top-mobile {
+    position: fixed;
+    height: 60px;
+    z-index: 9999;
+    top: 0;
+    background: #FFFFFF;
+  }
+  .Contentbody {
+    margin-top: 85px;
+  }
 }
 
 
@@ -796,12 +736,6 @@ h5.main-header{
 
   .App_right_sidebar {
     margin-left: 20px!important;
-  }
-  .main-row-section {
-    height: 95vh;
-  }
-  .about-section {
-    height: 75vh;
   }
 
   .blog-section {
