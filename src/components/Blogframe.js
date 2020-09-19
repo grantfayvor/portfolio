@@ -27,7 +27,7 @@ import BlogNavbar from './BlogNavbar';
               <div className="col-xl-9 ml-0 mr-0 pl-0 pr-0">
 
                 <div className="letstalk col-xl-9 ml-0 mr-0 pl-0 pr-0">
-                  <a class="btn btn-outline-danger" href="mailto:harrisonfavour@gmail.com" role="button">Let's Talk</a>
+                  <a className="btn btn-outline-danger" href="mailto:harrisonfavour@gmail.com" role="button">Let's Talk</a>
                 </div>
                 <Blog></Blog>
               </div>
@@ -36,9 +36,9 @@ import BlogNavbar from './BlogNavbar';
               <div className="col-xl-1 fixed-bottom-mobile">
                 <div className="App_right_sidebar">
                   <a href="https://github.com"><VscGithubAlt className="github"></VscGithubAlt></a>
-                  <a href="https://twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
-                  <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                  <a href="mailto:harrisonfavour@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+                  <a href="https://twitter.com"><i className="fab fa-twitter fa-lg"></i></a>
+                  <a href="https://www.linkedin.com/feed/"><i className="fab fa-linkedin-in fa-lg"></i></a>
+                  <a href="mailto:harrisonfavour@gmail.com"><i className="fa fa-envelope fa-lg"></i></a>
                 </div>
               </div>
               {/*3rd column ends*/}
