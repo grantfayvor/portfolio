@@ -12,10 +12,10 @@ function Blog() {
 
     <div className="BlogContent">
       <section>
-        <main className="about-section">
-          <div className="section-body" data-aos="slide-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-delay="50"
+        <main className="row-section">
+          <div className="section-body" 
           >
-            <div className="col-xl-12">
+            <div className="col-xl-12 b">
 
               <h1><b>Blog</b></h1>
               <p>
@@ -29,7 +29,7 @@ function Blog() {
                 <div className="card" style={{ width: "270px" }}>
                   <img className="card-img-top" src={image} alt="" />
                   <div className="card-body">
-                    <h5 className="card-title"><b>Dynamo</b></h5>
+                    <h5 className="bcard-title"><b>Dynamo</b></h5>
                     <p className="card-text">
                       Expert in writing backend JavaScript using the Node.js runtime environment.
                     </p>
@@ -41,7 +41,7 @@ function Blog() {
                 <div className="card" style={{ width: "270px" }}>
                   <img className="card-img-top" src={image2} alt="" />
                   <div className="card-body">
-                    <h5 className="card-title"><b>Dynamo</b></h5>
+                    <h5 className="bcard-title"><b>Dynamo</b></h5>
                     <p className="card-text">
                       Expert in writing backend JavaScript using the Node.js runtime environment.
                     </p>
@@ -63,13 +63,9 @@ function Blog() {
           </div>
 
           <aside
-            data-aos="slide-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-            data-aos-delay="50"
-            className="nav__aside"
+        
+            className="nav__aside4"
 
-            id="slide-four"
           >
             <span>BLOG</span>
             <div className="vertical__nav__indicator"></div>

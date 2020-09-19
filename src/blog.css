@@ -28,9 +28,12 @@
     flex-direction: column;
   }
 
+
+
   .section-body>div.col-xl-12 {
     width: 90%;
     margin: auto;
+    
   }
   .editblogtext h1 {
     margin-left: 12px;
@@ -62,12 +65,12 @@
     margin-left:-15px;
   }
   
-  .cardBody .card-title {
+  .cardBody .bcard-title {
     margin-top: 10px;
     margin-left: 10px;
   }
   
-  .cardBody .card-title p {
+  .cardBody .bcard-title p {
     margin-bottom: 5px;
   }
   
@@ -87,7 +90,7 @@
     ;
   }
   
-  .card-title {
+  .bcard-title {
     margin-left: 4px;
   }
   

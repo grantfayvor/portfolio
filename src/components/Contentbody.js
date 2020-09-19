@@ -10,7 +10,7 @@ function Contentbody() {
     <div className="Contentbody ">
       <section>
         <main className="about-section">
-          <div className="section-body" data-aos="slide-down" data-aos-duration="1500" data-aos-delay="50">
+          <div className="section-body">
             <div className="col-xl-12">
               <h1 id="About"><b>Harrison Favour</b></h1>
               <h6><b> I am a Back-End Developer.</b></h6>
@@ -35,24 +35,16 @@ function Contentbody() {
             </div>
           </div>
           <aside
-            data-aos="slide-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-            data-aos-delay="50"
+     
             className="nav__aside"
 
-            id="slide-one"
           >
             <span>ABOUT</span>
             <div className="vertical__nav__indicator"></div>
           </aside>
         </main>
         <div
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
-          data-aos-delay="50"
-          data-aos-anchor="#slide-one"
+
 
           className="nav__horizontal"
         >
@@ -63,7 +55,7 @@ function Contentbody() {
 
       <section className="row-section">
         <main className="main-row-section tech-skills-section">
-          <div className="section-body" data-aos="slide-up" data-aos-duration="1500" data-aos-delay="50">
+          <div className="section-body">
             <div className="col-xl-12 y">
               <h1 id="TechnicalSkills"><b>Technical Skills</b></h1>
               <p>
@@ -142,25 +134,17 @@ function Contentbody() {
             </div>
           </div>
           <aside
-            data-aos="slide-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-            data-aos-delay="50"
-            className="nav__aside"
+           
+            className="nav__aside2"
 
-            id="slide-two"
+           
           >
             <span>SKILLS</span>
-            <div className="vertical__nav__indicator"></div>
+           
           </aside>
         </main>
         <div
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
-          data-aos-delay="50"
-          data-aos-anchor="#slide-two"
-
+         
           className="nav__horizontal"
         >
           <div className="horizontal__nav__indicator"></div>
@@ -169,7 +153,7 @@ function Contentbody() {
 
       <section className="row-section">
         <main className="main-row-section portfolio-section">
-          <div className="section-body" data-aos="slide-up" data-aos-duration="1500" data-aos-delay="50">
+          <div className="section-body" >
             <div className="col-xl-12 p">
               <h1 id="Portfolio"><b>Portfolio</b></h1>
               <p>
@@ -259,24 +243,17 @@ function Contentbody() {
             </div>
           </div>
           <aside
-            data-aos="slide-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-            data-aos-delay="50"
-            className="nav__aside"
+         
+            className="nav__aside3"
 
-            id="slide-three"
+           
           >
             <span>PORTFOLIO</span>
-            <div className="vertical__nav__indicator"></div>
+      
           </aside>
         </main>
         <div
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
-          data-aos-delay="50"
-          data-aos-anchor="#slide-three"
+      
 
           className="nav__horizontal"
         >

@@ -19,9 +19,9 @@ function BlogNavbar() {
                     </div>
                     <Scrollspy className="sidebar-status scrollspy" items={['About', 'TechnicalSkills', 'Portfolio']}
                         currentClassName="isCurrent">
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#TechnicalSkills">Skills </a></li>
-                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><Link to="">About</Link></li>
+                        <li><Link to="#TechnicalSkill">Skills</Link></li>
+                        <li><Link to="">Portfolio</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
                     </Scrollspy>
                 </div>
