@@ -22,6 +22,9 @@ h5 {
   margin-left: 7px;
   color: #333333!important;
 }
+h5.card-title{
+  margin-left:0px!important;
+}
 
 h6 {
   margin-bottom: 40px;
@@ -728,6 +731,12 @@ scrollspy-example {
   }
   .Contentbody {
     margin-top: 85px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-toggler {
+    display: none;
   }
 }
 

@@ -163,7 +163,7 @@ function Contentbody() {
 
 
               <div className="row">
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card col-xl-5 pl-0 pr-0">
                   <div className="card-body">
                     <h5 className="card-title">Dynamo</h5>
                     <p className="card-text">
@@ -175,7 +175,7 @@ function Contentbody() {
                     </a>
                   </div>
                 </div>
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card col-xl-5 pl-0 pr-0">
                   <div className="card-body">
                     <h5 className="card-title">Dynamo</h5>
                     <p className="card-text">
@@ -187,7 +187,7 @@ function Contentbody() {
                     </a>
                   </div>
                 </div>
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card col-xl-5 pl-0 pr-0">
                   <div className="card-body">
                     <h5 className="card-title">Dynamo</h5>
                     <p className="card-text">
@@ -199,7 +199,7 @@ function Contentbody() {
                     </a>
                   </div>
                 </div>
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card col-xl-5 pl-0 pr-0">
                   <div className="card-body">
                     <h5 className="card-title">Dynamo</h5>
                     <p className="card-text">
@@ -211,7 +211,7 @@ function Contentbody() {
                     </a>
                   </div>
                 </div>
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card col-xl-5 pl-0 pr-0">
                   <div className="card-body">
                     <h5 className="card-title">Dynamo</h5>
                     <p className="card-text">
@@ -223,7 +223,7 @@ function Contentbody() {
                     </a>
                   </div>
                 </div>
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card col-xl-5 pl-0 pr-0">
                   <div className="card-body">
                     <h5 className="card-title">Dynamo</h5>
                     <p className="card-text">

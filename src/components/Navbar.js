@@ -22,9 +22,9 @@ function Navbar() {
                         </div>
                         <Scrollspy className="sidebar-status scrollspy" items={['About', 'TechnicalSkills', 'Portfolio']}
                             currentClassName="isCurrent">
-                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#About">About</a></li>
-                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#TechnicalSkills">Skills </a></li>
-                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#Portfolio">Portfolio</a></li>
+                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="/#About">About</a></li>
+                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="/#TechnicalSkills">Skills </a></li>
+                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="/#Portfolio">Portfolio</a></li>
                             <li data-toggle="collapse" data-target=".navbar-collapse.show"><Link to="/blog">Blog</Link></li>
                         </Scrollspy>
                     </div>
