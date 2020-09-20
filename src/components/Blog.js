@@ -26,7 +26,7 @@ function Blog() {
               </p>
 
               <div className="cardBody">
-                <div className="card" style={{ width: "270px" }}>
+                <div className="card">
                   <img className="card-img-top" src={image} alt="" />
                   <div className="card-body">
                     <h5 className="bcard-title"><b>Dynamo</b></h5>
@@ -38,7 +38,7 @@ function Blog() {
                     </a>
                   </div>
                 </div>
-                <div className="card" style={{ width: "270px" }}>
+                <div className="card">
                   <img className="card-img-top" src={image2} alt="" />
                   <div className="card-body">
                     <h5 className="bcard-title"><b>Dynamo</b></h5>
@@ -62,13 +62,8 @@ function Blog() {
             </div>
           </div>
 
-          <aside
-        
-            className="nav__aside4"
-
-          >
+          <aside className="nav__aside">
             <span>BLOG</span>
-            <div className="vertical__nav__indicator"></div>
           </aside>
         </main>
       

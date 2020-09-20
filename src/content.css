@@ -37,7 +37,7 @@
 
   .nav__aside {
     width: 10%;
-    height: 387vh;
+    margin-left: -10%;
   }
   
   .w3-border {
