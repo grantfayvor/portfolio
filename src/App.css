@@ -400,8 +400,8 @@ scrollspy-example {
   }
 
   .navbar-collapse.collapse.show {
-    height: 92vh;
-    width: 100vw;
+    height: 95vh;
+    width: 100%;
     background: #BF0D60;
     color: #FFFFFF!important;
     position: absolute;
