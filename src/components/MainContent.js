@@ -18,7 +18,7 @@ export default () => (
             <p>
               I enjoy building products that people love and derive a lot of fun working on open source tools.
               You might consider me a Full-Stack Engineer and in truth I am able to work on the frontend (I can't design though), or backend, or on some random utility library, even Desktop applications (if they still make those).
-                I've very recently been doing DevOps "things" and I find that quite enjoyable. You'd find me writing on <a href="https://medium.com/@hyper_debugger">Medium</a> sometimes and here's a <a href="https://medium.com/@hyper_debugger">link</a> if you are interested.
+                I've very recently been doing DevOps "things" and I find that quite enjoyable. You'd find me writing on <a href="https://medium.com/@hyper_debugger" className="card__link">Medium</a> sometimes and here's a <a className="card__link" href="https://medium.com/@hyper_debugger">link</a> if you are interested.
             </p>
             <p>
               I absolutely love playing FIFA, you can reach out to setup a match!
@@ -150,7 +150,7 @@ export default () => (
                   <p className="card-text">
                     A framework for building diverse Management Information Systems. It was built with primarily with JavaScript.
                     </p>
-                  <a href="/p/dynamo" className="card-link">
+                  <a href="/p/dynamo" className="card__link">
                     Check it out
                     </a>
                 </div>
@@ -161,7 +161,7 @@ export default () => (
                   <p className="card-text">
                     This was built using the Dynamo framework and currently has about 5 schools using the system currently.
                     </p>
-                  <a href="/p/school-manager" className="card-link">
+                  <a href="/p/school-manager" className="card__link">
                     Check it out
                     </a>
                 </div>
@@ -173,7 +173,7 @@ export default () => (
                     Have you ever wanted to quickly create video content without going through the hassle of installing one software after the other and learning how to use those specific softwares?
                     Hexcord is being built as a simple to use tool for creating presentations and tutorial videos and basically just recording anythingg that is on your computer screen including your face if you want that.
                     </p>
-                  <a href="/p/hexcord" className="card-link">
+                  <a href="/p/hexcord" className="card__link">
                     Check it out
                     </a>
                 </div>
@@ -184,7 +184,7 @@ export default () => (
                   <p className="card-text">
                     Hey, I'm open source! This is a library for interacting with the Kinecosystem using React Native. It was built with Java.
                     </p>
-                  <a href="/p/rnkinsdk" className="card-link">
+                  <a href="/p/rnkinsdk" className="card__link">
                     Check it out
                     </a>
                 </div>
@@ -195,7 +195,7 @@ export default () => (
                   <p className="card-text">
                     Mostly an internal tool for organizations to create vouchers and scale up the approval chain for the voucher to be processed.
                     </p>
-                  <a href="/p/voucher-processor" className="card-link">
+                  <a href="/p/voucher-processor" className="card__link">
                     Check it out
                     </a>
                 </div>
@@ -206,7 +206,7 @@ export default () => (
                   <p className="card-text">
                     This is used by people seeking an easy way to manage their Bitcoin addresses and make transactions directly from within the application.
                   </p>
-                  <a href="/p/cryosleep" className="card-link">
+                  <a href="/p/cryosleep" className="card__link">
                     Check it out
                   </a>
                 </div>
@@ -217,7 +217,7 @@ export default () => (
                   <p className="card-text">
                     It helps you manage your uploaded documents and tries to accurately classify the documents using the K Nearest Neighbour machine learning algorithm
                     </p>
-                  <a href="/p/document-manager" className="card-link">
+                  <a href="/p/document-manager" className="card__link">
                     Check it out
                     </a>
                 </div>
@@ -228,7 +228,7 @@ export default () => (
                   <p className="card-text">
                     This is an open source library for scaffolding e-commerce applications.
                     </p>
-                  <a href="/p/skaffold" className="card-link">
+                  <a href="/p/skaffold" className="card__link">
                     Check it out
                   </a>
                 </div>

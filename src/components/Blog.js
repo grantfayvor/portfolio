@@ -27,25 +27,25 @@ function Blog() {
                 <div className="card">
                   <img className="card-img-top" src={image} alt="" />
                   <div className="card-body">
-                    <h5 className="bcard-title"><b>Dynamo</b></h5>
+                    <h5 className="bcard-title"><b className="bold-text">Dynamo</b></h5>
                     <p className="card-text">
                       Expert in writing backend JavaScript using the Node.js runtime environment.
                     </p>
                     <a href="https://www.medium.com" className="Read">
-                      <b>Read</b>
+                      <b className="bold-text">Read</b>
                     </a>
                   </div>
                 </div>
                 <div className="card">
                   <img className="card-img-top" src={image2} alt="" />
                   <div className="card-body">
-                    <h5 className="bcard-title"><b>Dynamo</b></h5>
+                    <h5 className="bcard-title"><b className="bold-text">Dynamo</b></h5>
                     <p className="card-text">
                       Expert in writing backend JavaScript using the Node.js runtime environment.
                     </p>
                     <div className="readtext">
                       <a href="https://www.medium.com" className="Read">
-                        <b>Read</b>
+                        <b className="bold-text">Read</b>
                       </a>
                     </div>
 
@@ -55,7 +55,6 @@ function Blog() {
               <div className="more">
                 <a href="https://www.medium.com" className="MoreArticles">
                   More Articles</a>
-
               </div>
             </div>
           </div>
