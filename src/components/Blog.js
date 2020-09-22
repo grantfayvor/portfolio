@@ -3,8 +3,6 @@ import '../blog.css';
 import image from "../img/img1.png";
 import image2 from "../img/img2.png";
 import '../content.css';
-import "aos/dist/aos.css";
-// AOS.init({ disable: () => (window.innerWidth < 800) });
 
 
 function Blog() {

@@ -4,9 +4,7 @@ import '../blog.css';
 import Blog from './Blog';
 import { VscGithubAlt } from 'react-icons/vsc';
 import '../content.css';
-import "aos/dist/aos.css";
 import Navbar from './Navbar';
-// AOS.init({ disable: () => (window.innerWidth < 800) });
 
 
 

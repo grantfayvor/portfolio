@@ -22,13 +22,18 @@ h5 {
   margin-left: 7px;
   color: #333333!important;
 }
-h5.card-title{
-  margin-left:0px!important;
+
+h5.card-title {
+  margin-left: 0px!important;
 }
 
 h6 {
   margin-bottom: 40px;
   color: #333333;
+}
+
+.dark-green-text {
+  color: #608F79!important;
 }
 
 /*buttons*/
@@ -152,6 +157,15 @@ h6 {
   margin-bottom: 24px;
 }
 
+.card-link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #BF0D60!important;
+  text-decoration: underline;
+}
+
 .fa.fa-envelope {
   color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -166,6 +180,18 @@ h6 {
 }
 
 .fab.fa-twitter.fa-lg {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #9BC4B1;
+}
+
+.fab.fa-github.fa-lg {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #9BC4B1;
+}
+
+.fab.fa-medium.fa-lg {
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #9BC4B1;
@@ -201,6 +227,30 @@ h6 {
   color: #9BC4B1;
 }
 
+.fab.fa-github.fa-lg:hover {
+  color: #608F79;
+}
+
+.fab.fa-github.fa-lg :visited {
+  color: #608F79;
+}
+
+.fab.fa-github.fa-lg:active {
+  color: #9BC4B1;
+}
+
+.fab.fa-medium.fa-lg:hover {
+  color: #608F79;
+}
+
+.fab.fa-medium.fa-lg :visited {
+  color: #608F79;
+}
+
+.fab.fa-medium.fa-lg:active {
+  color: #9BC4B1;
+}
+
 .fab.fa-linkedin-in.fa-lg:hover {
   color: #608F79;
 }
@@ -232,21 +282,21 @@ scrollspy-example {
 }
 
 /* media queries */
+
 @media (max-width: 576px) {
-  .section-body>.col-xl-12.b{
+  .section-body>.col-xl-12.b {
     margin-top: -150px!important;
   }
- h5.main-header {
+  h5.main-header {
     position: static;
     padding-top: 1%;
     margin-left: 15px;
     margin-bottom: -15px;
     line-height: 0;
   }
-  h5.card-title{
-    margin-left:0px!important;
+  h5.card-title {
+    margin-left: 0px!important;
   }
-  
   .navbarline {
     display: none;
   }
@@ -267,13 +317,11 @@ scrollspy-example {
   .col-xl-9.mr-0.pr-0 .col-xl-10 {
     margin-top: -115px;
   }
- 
-
   .navbar-expand-xl {
     position: static;
     margin-top: -15px;
     margin-left: 0px;
-    float:right;
+    float: right;
   }
   .bg-light {
     background-color: #ffffff!important;
@@ -293,7 +341,7 @@ scrollspy-example {
     float: left;
     margin-top: 20px;
     margin-right: 0px;
-    margin-left: 25.5%;
+    margin-left: 0px;
   }
   .fixed-bottom-mobile {
     position: fixed;
@@ -355,7 +403,6 @@ scrollspy-example {
   .Contentbody {
     margin-top: 85px;
   }
-
   .section-body {
     margin: auto;
     border-right: none;
@@ -372,11 +419,9 @@ scrollspy-example {
   .portfolio-section {
     height: auto;
   }
-
   .blog-section {
-    height:auto;
+    height: auto;
   }
-
   .main-header {
     position: initial;
     height: 50px;
@@ -398,7 +443,6 @@ scrollspy-example {
   .no-mobile-padding {
     padding: 0px;
   }
-
   .navbar-collapse.collapse.show {
     height: 95vh;
     width: 100%;
@@ -412,8 +456,8 @@ scrollspy-example {
 
 /* // Medium devices (tablets, 768px and up) */
 
- @media (max-width: 768px) and (min-width: 577px) {
-  .section-body>.col-xl-12.b{
+@media (max-width: 768px) and (min-width: 577px) {
+  .section-body>.col-xl-12.b {
     margin-top: -80px!important;
   }
   h5.main-header {
@@ -422,7 +466,6 @@ scrollspy-example {
     margin-left: 34px;
     margin-bottom: -15px;
   }
-
   .navbarline {
     display: none;
   }
@@ -441,17 +484,14 @@ scrollspy-example {
     margin-left: 34px;
     margin-bottom: -15px;
   }
-
-  h5.card-title{
+  h5.card-title {
     margin-left: 0px!important;
   }
-
-
   .navbar-expand-xl {
     position: static;
     margin-top: -15px;
     margin-left: 0px;
-    float:right;
+    float: right;
   }
   h1 {
     margin-left: -2px;
@@ -473,7 +513,6 @@ scrollspy-example {
   .w3-rightbar {
     display: none
   }
-  
   .bg-light {
     background-color: #ffffff!important;
   }
@@ -522,63 +561,49 @@ scrollspy-example {
   }
 }
 
-
 @media (max-width: 1199px) and (min-width:557px) {
-  .section-body>.col-xl-12.b{
+  .section-body>.col-xl-12.b {
     margin-top: -80px!important;
   }
-
-  .nav__aside>span{
-    display:none;
+  .nav__aside>span {
+    display: none;
   }
-
-  .nav__aside1>span{
-    display:none;
+  .nav__aside1>span {
+    display: none;
   }
-
-  .nav__aside2>span{
-    display:none;
+  .nav__aside2>span {
+    display: none;
   }
-
-  .nav__aside3>span{
-    display:none;
+  .nav__aside3>span {
+    display: none;
   }
-
-  
-  .nav__aside4>span{
-    display:none;
+  .nav__aside4>span {
+    display: none;
   }
-  .nav__aside{
-    display:none;
+  .nav__aside {
+    display: none;
   }
-
-  .nav__aside1{
-    display:none;
+  .nav__aside1 {
+    display: none;
   }
-
-  .nav__aside2{
-    display:none;
+  .nav__aside2 {
+    display: none;
   }
-
-  .nav__aside3{
-    display:none;
+  .nav__aside3 {
+    display: none;
   }
-
-  .nav__aside4{
-    display:none;
+  .nav__aside4 {
+    display: none;
   }
-
   .col-xl-10.y {
     padding-top: 50px;
   }
   .col-xl-10.p {
     padding-top: 50px;
   }
-
-  h5.card-title{
+  h5.card-title {
     margin-left: 0px!important;
   }
- 
   h5.main-header {
     position: static;
     padding-top: 1%;
@@ -618,7 +643,7 @@ scrollspy-example {
     position: static;
     margin-top: -15px;
     margin-left: 0px;
-    float:right;
+    float: right;
   }
   .no-mobile-padding {
     padding: 0px;
@@ -686,11 +711,8 @@ scrollspy-example {
   .Contentbody {
     margin-top: 85px;
   }
-
   svg {
-
     margin-left: 0px!important;
-   
   }
 }
 
@@ -700,15 +722,11 @@ scrollspy-example {
   }
 }
 
-
 @media (width: 1920px) {
-
   .App_right_sidebar {
     margin-left: 20px!important;
   }
-
   .blog-section {
-    height:90vh;
+    height: 90vh;
   }
 }
-

@@ -20,12 +20,12 @@ function Navbar() {
                         <div className="navbarline">
                             <div className="w3-third tablink"></div>
                         </div>
-                        <Scrollspy className="sidebar-status scrollspy" items={['About', 'TechnicalSkills', 'Portfolio']}
+                        <Scrollspy className="sidebar-status scrollspy" items={['About', 'TechnicalSkills', 'Portfolio', "/blog"]}
                             currentClassName="isCurrent">
                             <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="/#About">About</a></li>
                             <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="/#TechnicalSkills">Skills </a></li>
                             <li data-toggle="collapse" data-target=".navbar-collapse.show"><a href="/#Portfolio">Portfolio</a></li>
-                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><Link to="/blog">Blog</Link></li>
+                            <li className={/blog/i.test(window.location.pathname) ? "isCurrent" : ""} data-toggle="collapse" data-target=".navbar-collapse.show"><Link to="/blog">Blog</Link></li>
                         </Scrollspy>
                     </div>
                 </nav>
