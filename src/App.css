@@ -164,6 +164,10 @@ h6 {
   margin-bottom: 24px;
 }
 
+.ending-section {
+  margin-top: 40px;
+}
+
 .card__link {
   font-family: Lato;
   font-style: normal;
@@ -306,6 +310,9 @@ scrollspy-example {
   }
   .navbarline {
     display: none;
+  }
+  .ending-section {
+    margin-top: 60px;
   }
   .navbarline1 {
     display: none;

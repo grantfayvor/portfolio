@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default () => (
   <>
@@ -150,9 +151,9 @@ export default () => (
                   <p className="card-text">
                     A framework for building diverse Management Information Systems. It was built with primarily with JavaScript.
                     </p>
-                  <a href="/p/dynamo" className="card__link">
+                  <Link to="/p/dynamo" className="card__link">
                     Check it out
-                    </a>
+                    </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -161,9 +162,9 @@ export default () => (
                   <p className="card-text">
                     This was built using the Dynamo framework and currently has about 5 schools using the system currently.
                     </p>
-                  <a href="/p/school-manager" className="card__link">
+                  <Link to="/p/school-manager" className="card__link">
                     Check it out
-                    </a>
+                    </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -173,9 +174,9 @@ export default () => (
                     Have you ever wanted to quickly create video content without going through the hassle of installing one software after the other and learning how to use those specific softwares?
                     Hexcord is being built as a simple to use tool for creating presentations and tutorial videos and basically just recording anythingg that is on your computer screen including your face if you want that.
                     </p>
-                  <a href="/p/hexcord" className="card__link">
+                  <Link to="/p/hexcord" className="card__link">
                     Check it out
-                    </a>
+                    </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -184,9 +185,9 @@ export default () => (
                   <p className="card-text">
                     Hey, I'm open source! This is a library for interacting with the Kinecosystem using React Native. It was built with Java.
                     </p>
-                  <a href="/p/rnkinsdk" className="card__link">
+                  <Link to="/p/rnkinsdk" className="card__link">
                     Check it out
-                    </a>
+                    </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -195,9 +196,9 @@ export default () => (
                   <p className="card-text">
                     Mostly an internal tool for organizations to create vouchers and scale up the approval chain for the voucher to be processed.
                     </p>
-                  <a href="/p/voucher-processor" className="card__link">
+                  <Link to="/p/voucher-processor" className="card__link">
                     Check it out
-                    </a>
+                    </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -206,9 +207,9 @@ export default () => (
                   <p className="card-text">
                     This is used by people seeking an easy way to manage their Bitcoin addresses and make transactions directly from within the application.
                   </p>
-                  <a href="/p/cryosleep" className="card__link">
+                  <Link to="/p/cryosleep" className="card__link">
                     Check it out
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -217,9 +218,9 @@ export default () => (
                   <p className="card-text">
                     It helps you manage your uploaded documents and tries to accurately classify the documents using the K Nearest Neighbour machine learning algorithm
                     </p>
-                  <a href="/p/document-manager" className="card__link">
+                  <Link to="/p/document-manager" className="card__link">
                     Check it out
-                    </a>
+                    </Link>
                 </div>
               </div>
               <div className="card col-xl-5 pl-0 pr-0">
@@ -228,9 +229,9 @@ export default () => (
                   <p className="card-text">
                     This is an open source library for scaffolding e-commerce applications.
                     </p>
-                  <a href="/p/skaffold" className="card__link">
+                  <Link to="/p/skaffold" className="card__link">
                     Check it out
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -246,7 +247,7 @@ export default () => (
       </div>
     </section>
 
-    <section style={{ marginTop: "40px" }}>
+    <section className="ending-section">
       <div className="edittext4" style={{ width: "90%", margin: "auto" }}>
         <h6>The End</h6>
       </div>
